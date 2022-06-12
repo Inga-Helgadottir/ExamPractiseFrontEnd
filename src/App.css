@@ -1,3 +1,30 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+  width: 100%;
+  padding: 10px 0;
+}
+nav a {
+  color: blueviolet;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: green;
+  text-decoration: underline;
+}
+button {
+  margin: 10px 0;
+}
+.dropDownIcon {
+  font-size: 30px;
+}
+.hidden {
+  margin: 0 auto;
 }
