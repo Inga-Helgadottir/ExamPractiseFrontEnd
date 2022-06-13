@@ -25,8 +25,14 @@ code .
 
 ## start and end project
 Start project on localhost
+
+
 npm run dev
+
+
 To stop
+
+
 Ctrl + C
 
 ## components
