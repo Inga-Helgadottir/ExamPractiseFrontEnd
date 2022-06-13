@@ -197,20 +197,16 @@ useEffect(() => {
 
 ## useLocation
 
-```javascript
 Use location checks where on the site we are 
 "/" == http://localhost:3000/
 "/about" == http://localhost:3000/about
 
-
 npm I react-router-dom
 
-
+```javascript
 import { useLocation } from "react-router-dom";
 
-
 const location = useLocation();
-
 
 {location.pathname === "/" && (
    <Button
@@ -264,11 +260,11 @@ const Header = ({ onAdd }) => {
 const [parameter, onClickFunction] = useState(false);
 OR
 const [parameter, onClickFunction] = useState([]);
+```
 
 In the () is the initial state
 The first one shows a boolean
 The second one shows an array
-```
 
 ## onSubmit
 
