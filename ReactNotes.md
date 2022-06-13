@@ -15,8 +15,12 @@ export default ComponentName
 ```
 
 ## create react app with vite
-npm create vite@latest
+npm create vite@latest  
+
+
 cd nameOfApp
+
+
 code .
 
 ## start and end project
